@@ -1,0 +1,8 @@
+<h3>all my users</h3>
+<ul>
+     {%for users in total_users%}
+     <li>
+          <a href = "{{ users.id }}/"> {{ users.name }} </a>
+     </li>
+     {%endfor%}
+</ul>
